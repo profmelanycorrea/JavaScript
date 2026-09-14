@@ -10,6 +10,7 @@ un comentario
 en varias líneas
 */
 
+// EXPLICACION pag web: https://javascript-basico.my.canva.site/
 //https://nodejs.org/es/download  descargar para ejecutar JS 
 
 console.log("¡Hola, JavaScript!")
