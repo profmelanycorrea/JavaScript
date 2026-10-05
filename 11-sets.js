@@ -12,7 +12,7 @@ console.log(mySet)
 
 // Inicialización
 
-mySet = new Set(["Brais", "Moure", "mouredev", 37, true, "braismoure@mouredev.com"])
+mySet = new Set(["Melany", "Correa", 28, true, "mcorrea@cejs.com"])
 
 console.log(mySet)
 
@@ -20,23 +20,23 @@ console.log(mySet)
 
 // add y delete 
 
-mySet.add("https://moure.dev") //Añade datos
+mySet.add("https://cejs.com") //Añade datos
 
 console.log(mySet)
 
-mySet.delete("https://moure.dev") // elimina datos, tenemos que explicarle que elementos va a borrar. Retorna un boolean.  
+mySet.delete("https://cejs.com") // elimina datos, tenemos que explicarle que elementos va a borrar. Retorna un boolean.  
 
 console.log(mySet)
 
-console.log(mySet.delete("Brais"))
+console.log(mySet.delete("Melany"))
 console.log(mySet.delete(4))
 
 console.log(mySet)
 
 // has: corrobora que exista ese dato dentro de la lista
 
-console.log(mySet.has("Moure"))
-console.log(mySet.has("Brais"))
+console.log(mySet.has("Melany "))
+console.log(mySet.has("Correa"))
 
 // size: longitud de cadena
 
@@ -45,8 +45,8 @@ console.log(mySet.size)
 
 // No admite duplicados
 
-mySet.add("braismoure@mouredev.com")
-mySet.add("braismoure@mouredev.com")
-mySet.add("braismoure@mouredev.com")
-mySet.add("BraisMoure@mouredev.com")
+mySet.add("mcorrea@cejs.com")
+mySet.add("mcorrea@cejs.com")
+mySet.add("mcorrea@cejs.com")
+mySet.add("mcorrea@cejs.com")
 console.log(mySet)
